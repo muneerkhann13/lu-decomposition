@@ -1,4 +1,5 @@
-module.exports = function (A, L, U) {
+module.exports = function (A, L, U) 
+{
     var m=A.shape[0];
     var n=A.shape[1];
     if(m!=n)
@@ -45,6 +46,7 @@ module.exports = function (A, L, U) {
             
         }
     }
+    return true;
 
        
 };
