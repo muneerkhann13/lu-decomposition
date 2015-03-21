@@ -17,13 +17,13 @@ Decompose matrix into L U but does not modify A
 var ndarray = require('ndarray');
 var zeros = require('zeros');
 var show = require('ndarray-show');
-var decop = require('lu-decomposition');
+var decom = require('lu-decomposition');
 
 var A = ndarray([ 25,5,1,64,8,1,144,12,1 ], [ 3, 3 ]);
 var L = zeros([ 3, 3 ]);
 var U = zeros([ 3, 3 ]);
 
-decop(A, L, U);
+decom(A, L, U);
 console.log('L=\n' + show(L));
 console.log('U=\n' + show(U));
 ```
