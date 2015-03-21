@@ -1,16 +1,15 @@
 #lu-decomposition
 
-METHOD
+
+```
 var decop=require("lu-decomposition")
-
-_________________________________________________________________________________________________________
+```
+```
 var d=decop(A,L,U);
-
+```
 Decompose matrix into L U but does not modify A
-_________________________________________________________________________________________________________
 
 
-EXAMPLE
 #example
 ```js
 
