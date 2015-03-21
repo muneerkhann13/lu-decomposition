@@ -2,10 +2,10 @@
 
 
 ```js
-var decop=require("lu-decomposition")
+var decom=require("lu-decomposition")
 ```
 ```js
-var d=decop(A,L,U);
+var d=decom(A,L,U);
 ```
 Decompose matrix into L U but does not modify A
 
