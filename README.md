@@ -1,3 +1,15 @@
+METHOD
+var decop=require("lu-decomposition")
+
+_________________________________________________________________________________________________________
+var d=decop(A,L,U);
+
+Decompose matrix into L U but does not modify A
+_________________________________________________________________________________________________________
+
+
+EXAMPLE
+
 var ndarray = require('ndarray');
 var zeros = require('zeros');
 var show = require('ndarray-show');
