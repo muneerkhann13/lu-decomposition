@@ -8,9 +8,9 @@ var A = ndarray([
     1, 2, 2, 1, 
     1, 2, 9, 1, 
     3, 1, 1, 7, 
-], [ 5, 5 ]);
-var L = zeros([ 5, 5 ]);
-var U = zeros([ 5, 5 ]);
+], [ 4, 4 ]);
+var L = zeros([ 4, 4 ]);
+var U = zeros([ 4, 4 ]);
 
 decom(A, L, U);
 console.log('L=\n' + show(L));
